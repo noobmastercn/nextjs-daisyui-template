@@ -4,8 +4,8 @@ export default function Home() {
     return (
         <div className="p-10">
 
-            {/*集成daisyUI后 mdx需要用 className="prose" 包裹 否则样式失效*/}
-            <article className="prose">
+            {/*集成daisyUI后 mdx需要用 className="prose" 包裹 否则样式失效 https://daisyui.com/docs/layout-and-typography/#-1 */}
+            <article >
                 <HelloWorld/>
             </article>
 
